@@ -1,0 +1,13 @@
+body {
+    background-image: url("./bilder/The_Blue_Marble_\(remastered\).jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: -400 0;
+}
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 100px;
+    color: white;
+    width: 660px;
+    margin-left: 100px;
+}
