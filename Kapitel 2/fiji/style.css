@@ -1,0 +1,44 @@
+
+body {
+    background-image: url(Bilder/bali-2975787_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    font-family: "Playpen Sans", cursive;
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 6px 6px 0 black;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+h2 {
+    font-family: "Playpen Sans", cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: 6px 6px 0 black;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+p{
+    font-family: "Playpen Sans", cursive;
+    font-size: 25px;
+    color: white;
+    margin-top: 450px;
+    margin-left: 1500px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: green;
+    padding: 10px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border: 2px solid white;
+    border-radius: 10p;
+}
