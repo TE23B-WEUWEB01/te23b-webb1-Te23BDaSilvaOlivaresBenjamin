@@ -1,0 +1,64 @@
+/* Enkel CSS-reset */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* layoutens utseende */
+.sida1
+{
+    background-image: url(bilder/seamless-pattern-2740688_640.png);
+}
+.sida2
+{
+    background-image: url(bilder/insects-6734714_640.png);
+}
+.sida3
+{
+    background-image: url(bilder/stars-1022751_640.jpg);
+}
+.sida4
+{
+    background-image: url(bilder/lemon-background-6712130_640.png);
+}
+.sida5
+{
+    background-image: url(bilder/pattern-3296033_640.png);
+}
+.sida6
+{
+    background-image: url(bilder/background-6737492_640.png);
+}
+div {
+    width: 500px;
+    background-color: white;
+    border: 5px dashed gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    padding: 20px;
+}
+h1 {
+    font-family: "Josefin Slab", serif;
+    padding-bottom: 16px;
+    font-size: 40px;
+}
+p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
