@@ -1,3 +1,4 @@
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -14,27 +15,96 @@ width: 100%;
 }
 
 /* sidan */
-body {}
-.kontainer {}
+body {
+    background-image: url(Bilder/bai85xofv5z11.jpg);
+    background-repeat: no-repeat;
+}
+.kontainer {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Bygga layouten */
+.kontainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 
+    "sidhuvud sidhuvud"
+    "artiklarna sidebar"
+    "sidfot sidfot";
+    gap: 20px;
+}
+header {
+    grid-area: sidhuvud;
+    padding: 20px;
+    font-family: "Rubik Moonrocks", serif;;
+}
+main {
+    grid-area: artiklarna;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+aside {
+    grid-area: sidebar;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+footer {
+    grid-area: sidfot;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
 
 /* Sidhuvud */
-header {}
-header h1 {}
+header {
+    color: #fff;
+    font-family: "Rubik Moonrocks", serif;
+}
+header h1 {
+    font-size: 80px;
+}
 header h2 {}
 
 /* Menyn */
-header nav {}
-header nav a {}
-header nav a.aktiv {}
-header nav a:hover {}
+header nav {
+    background: rgb(95,255,0);
+background: linear-gradient(0deg, rgba(95,255,0,1) 0%, rgba(36,167,36,1) 35%, rgba(95,255,0,1) 100%);
+    padding: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header nav a {
+    text-decoration: none;
+    color: white;
+    padding: 9px;
+    border-radius: 2px;
+}
+header nav a.aktiv {
+    background: rgb(71,191,0);
+background: linear-gradient(0deg, rgba(71,191,0,1) 0%, rgba(26,130,26,1) 35%, rgba(71,191,0,1) 100%);
+}
+header nav a:hover {
+    background: rgb(71,191,0);
+    background: linear-gradient(0deg, rgba(71,191,0,1) 0%, rgba(26,130,26,1) 35%, rgba(71,191,0,1) 100%);
+}
 
 /* Sidans innehåll - artiklar, text mm */
 main {}
-main h3 {}
-main figure {}
-main figure img {}
-main figure figcaption {}
-main p {}
+main article {}
+main article h3 {}
+main article figure {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #aaa;
+    margin-bottom: 20px;
+}
+main article figure img {}
+main article figure figcaption {}
+main article p {}
 
 /* Sidobar */
 aside {}
